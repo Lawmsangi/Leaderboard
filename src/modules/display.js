@@ -14,7 +14,6 @@ const display = () => {
     listItem.className = 'list-item';
     listItem.innerHTML = `<span>${score.name}:</span> <span>${score.score}</span>`;
     listItem.style.backgroundColor = index % 2 === 0 ? '#fff' : '#f2f2f2';
-    listItem.style.padding = '1%';
     list.appendChild(listItem);
   });
 };

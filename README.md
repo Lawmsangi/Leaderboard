@@ -12,6 +12,7 @@
 - [📖 \[Leaderboard\] ](#-leaderboard-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
     - [🚀 Live Demo](#live-demo)
   - [💻 Getting Started ](#-getting-started-)
     - [setup](#setup)
@@ -39,6 +40,10 @@ Leaderboard
 3. JS
 4. Webpack
 
+### Key Features <a name="key-features"></a>
+- **[user can add to do list]**
+- **[user can delete after the work is done]**
+- **[user can edit the list]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
