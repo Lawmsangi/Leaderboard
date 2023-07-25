@@ -28,7 +28,7 @@
 
 
 
-# 📖 [To Do List] <a name="about-project"></a>
+# 📖 [Leaderboard] <a name="about-project"></a>
 
 Leaderboard
 
@@ -41,9 +41,8 @@ Leaderboard
 4. Webpack
 
 ### Key Features <a name="key-features"></a>
-- **[user can add to do list]**
-- **[user can delete after the work is done]**
-- **[user can edit the list]**
+- **[display different scores by different players]**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
