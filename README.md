@@ -39,9 +39,11 @@ Leaderboard
 2. HTML5
 3. JS
 4. Webpack
+5. API
 
 ### Key Features <a name="key-features"></a>
-- **[display different scores by different players]**
+- **[refresh button will get all scores for a game created by user from the API]**
+-**[submit button will save a score for a game created by user sending to the API]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
