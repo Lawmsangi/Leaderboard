@@ -7,9 +7,10 @@
     <title>To Do List</title>
 </head>
 <body>
-    <h1>Leaderboard</h1>
+    
     <div class="container">
         <div class="scores">
+            <h1>Leaderboard</h1>
             <h2>Recent scores <span><button id="refresh-btn">Refresh</button></span></h2>
             <div id="score-list"></div>
         </div>
@@ -17,8 +18,8 @@
          <div class="form">
             <h2>Add your score</h2>
             <form action="" class="form">
-                <input type="text" id="name" placeholder="Your name">
-                <input type="text" id="score" placeholder="Your score">
+                <input type="text" id="name" placeholder="Your name" required>
+                <input type="number" id="score" placeholder="Your score" required>
                 <button id="add-score-btn">Submit</button>
             </form>
          </div>

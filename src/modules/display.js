@@ -3,6 +3,7 @@ const display = (scores) => {
   scoreList.innerHTML = '';
   scores.forEach((item, index) => {
     const listItem = document.createElement('li');
+    listItem.className = 'score-list-item';
     listItem.innerHTML = `<span>${item.user}:</span> <span>${item.score}</span>`;
     listItem.style.backgroundColor = index % 2 === 0 ? '#fff' : '#f2f2f2';
     scoreList.appendChild(listItem);
