@@ -1,6 +1,35 @@
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-image: url('https://images.unsplash.com/photo-1552674605-db6ffd4facb5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+h1 {
+  font-size: 40px;
+}
+
 .container {
   display: flex;
-  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+  gap: 70px;
+  padding: 20px;
+  width: 40%;
+  background-color: transparent;
+  box-shadow: 0 0 15px #ebe8e8;
+}
+
+.score-list-item {
+  padding: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
 }
 
 .refresh-btn {
@@ -11,12 +40,12 @@ form {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  margin-bottom: 10px;
-  margin-top: 10px;
+  margin-bottom: 30px;
 }
 
 form > input {
   padding: 10px;
+  border: none;
 }
 
 form > input::placeholder {
@@ -24,12 +53,31 @@ form > input::placeholder {
   color: #000;
 }
 
+form > input:focus {
+  outline: none;
+}
+
 #score-list {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  border: 1px solid #000;
+  border: 1px solid #ebe8e8;
   padding: 0;
+}
+
+button {
+  border: 1px solid #ebe8e8;
+  font-size: 1rem;
+  font-weight: 600;
+  box-shadow: 3px 3px #ebe8e8;
+  border-radius: 3px;
+  background-color: #fff;
+  padding: 5px;
+}
+
+form button {
+  width: 50%;
+  margin-left: 90px;
 }
 
 .list-item {
@@ -38,12 +86,4 @@ form > input::placeholder {
 
 li {
   list-style: none;
-}
-
-button {
-  border: 1px solid black;
-  font-size: 1rem;
-  font-weight: 600;
-  box-shadow: 5px 5px black;
-  border-radius: 5px;
 }
