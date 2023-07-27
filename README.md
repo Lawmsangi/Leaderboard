@@ -50,7 +50,7 @@ Leaderboard
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-- [Live Demo Link]('https://lawmsangi.github.io/Leaderboard/dist/')
+- [Live Demo Link](https://lawmsangi.github.io/Leaderboard/dist/)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
