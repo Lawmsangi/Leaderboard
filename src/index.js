@@ -4,7 +4,8 @@ import display from './modules/display.js';
 import getScores from './modules/getScores.js';
 import './style.css';
 
-const gameId = 'l96yf0Kvdp9cFkx0V70b';
+const gameId = 'PHjjKdL27zmap8gY7Foe';
+
 
 const scoreBtn = document.getElementById('add-score-btn');
 scoreBtn.addEventListener('click', (e) => {
